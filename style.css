@@ -1,0 +1,102 @@
+body {
+    background: rgb(55, 55, 55);
+    color: rgb(55, 55, 55);
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+/*@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}*/
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto;
+}
+
+.card-name {
+    color: rgb(255, 255, 255);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    padding: 10px;
+    margin: 10px 0px;
+    text-align: center;
+    list-style-position: inside
+}
+
+.card-bio {
+    color: rgb(255, 255, 255);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    border-radius: 6px;
+    padding: 10px;
+    margin: 10px 0px;
+    text-align: center;
+    list-style-position: inside
+  }
+
+.card-fav {
+    color: white;
+    background-color: grey;
+    padding: 20px;
+    border-radius: 6px;
+    margin: 10px 0px;
+    text-align: center;
+    list-style-position: inside;
+    list-style: none;
+}
+
+.card-social {
+    color: white;
+    background-color: grey;
+    padding: 20px;
+    border-radius: 6px;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.image-circle {
+    border-radius: 50%;
+}
+
+.list-inline li {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin-left: 0;
+  display: inline-block;
+}
+
+.list-inline {
+  padding-left: 0;
+}
+
+.list-style {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+/*  display: inline-block;
+*/}
+
+.card:hover {
+  opacity: 50%
+}
+
+#align {
+  display: inline-block;
+}
+
+
